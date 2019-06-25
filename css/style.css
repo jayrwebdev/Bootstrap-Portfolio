@@ -11,10 +11,16 @@
 .barber{
     float: right ;
 }
-.boxer {
-    width: 300 ;
-    height: 300 ;
+#line {
+    margin-top: 50px ;
+    width: 100% ;
+    height: 10px ;
     background-color: black ;
+    border-radius: 20px ;
+
+}
+.bypod {
+    padding-bottom: 10px ;
 }
 h1 {
     font-family: 'Ranga', cursive;
@@ -37,7 +43,7 @@ input {
 ul.nav a {
     font-family: 'Ranga', cursive;
     color: black ;
-    padding-right: 50px ;
+    padding-right: 10px ;
 }
 ul.nav a:hover {
    color: white ;
@@ -66,4 +72,22 @@ ul.nav a:visited {
 .form-control {
     color: black ;
     border-color: black ;
+   
 }
+.form-inline .form-control {
+    width: 60% ;
+}
+ @media (max-width: 375px ) {
+     .barber {
+
+     }
+     #line {
+         width: 100% ;
+     }
+     .windbreaker {
+         margin-left: 70px;
+     }
+     .lion {
+         margin-right: 15px ;
+     }
+ }
